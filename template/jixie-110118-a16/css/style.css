@@ -53,8 +53,8 @@ ol,ul,li{list-style-type:none;}
 #nav_bot{width:100%;height:13px; background:url(../images/menu_bottom.gif) repeat-x;}
 
 /*--- banner ---*/
-#banner{ width:100%; overflow:hidden; margin:0px auto 0px auto ; clear:both; text-align:left;}
-
+/*#banner{ width:100%;  height:855px;text-align:left;}
+*/
 /*--- 主体页面 ---*/
 #main_con{width:100%; margin-bottom:25px; margin:0 auto;}
 
@@ -407,7 +407,7 @@ body a {
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
-.banner{
+#banner{
   background: url(../images/banner2.jpg) no-repeat 0px 0px #eeece9;
   min-height: 855px;
   background-size: cover;
@@ -1707,7 +1707,7 @@ span.menu {
 	.callbacks_tabs {
 	  top: 87%;
 	}
-	.banner {
+	#banner {
 	      min-height: 144px !important;
 	}
 	.banner-info {
@@ -1808,7 +1808,7 @@ span.menu {
 	.banner-info h2 {
 		font-size: 41px;
 	}
-	.banner {
+	#banner {
 		min-height: 630px;
 	}
 	.callbacks_tabs {
@@ -1832,7 +1832,7 @@ span.menu {
 	.footer-middle {
 	  margin: 3em 0;
 	}
-	.a-banner {
+	#a-banner {
 	  min-height: 88px !important;
 	}
 	.banner-bottom-right {
@@ -1972,7 +1972,7 @@ span.menu {
 	.banner-info {
 		margin: 3em 0 0 0;
 	}
-	.banner {
+	#banner {
 	  min-height: 560px;
 	}
 	.banner-bottom-left h3 {
@@ -2087,7 +2087,7 @@ span.menu {
 	  float: none;
 	  text-align: center;
 	}
-	.a-banner {
+	#a-banner {
 	    min-height: 85px !important;
 	}
 	.about-top {
@@ -2176,7 +2176,7 @@ span.menu {
 	.team-grids {
 	  margin-top: 1em;
 	}
-	.a-banner {
+	#a-banner {
 	  min-height: 75px !important;
 	}
 	.team-grid img {
@@ -12615,3 +12615,8 @@ button.close {
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
+
+
+
+
+
